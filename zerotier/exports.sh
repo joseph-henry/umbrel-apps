@@ -1,0 +1,1 @@
+export APP_ZEROTIER_PORT="9993"

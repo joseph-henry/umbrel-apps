@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  web:
+    image: zerotier/zerotier:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    network_mode: "host"
+    volumes:
+      - ${APP_DATA_DIR}/data:/var/lib/zerotier-one
+    command: "sh -c 'zerotier-one -d'"

@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: zerotier
+category: Networking
+name: ZeroTier
+version: "1.10.0"
+tagline: Securely access any device, anywhere.
+description: >-
+  ZeroTier provides a global virtual LAN for all of your devices and will assign your Umbrel a static IP for access from anywhere.
+developer: ZeroTier, Inc.
+website: https://zerotier.com
+dependencies: []
+repo: https://github.com/zerotier/zerotierone
+support: https://github.com/zerotier/ZeroTierOne/issues
+port: 9993
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+torOnly: false
+deterministicPassword: false
+path: ""
